@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iPhoneNews — Новости мира Apple</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo-section">
+    <div class="logo" id="homeLink">iPhoneNews</div>
+    <div class="phone">📞 +7 900 800 55 11</div>
+  </div>
+  <nav class="navbar">
+    <a href="#" data-category="all" class="active">Все новости</a>
+    <a href="#" data-category="iphone">iPhone</a>
+    <a href="#" data-category="ios">iOS</a>
+    <a href="#" data-category="accessories">Аксессуары</a>
+  </nav>
+  <button id="themeToggle" class="theme-toggle">🌙 Тёмная</button>
+</header>
+
+<div class="search-wrapper">
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Поиск новостей по заголовку..." class="search-input">
+    <button id="searchClear" class="search-clear" style="display: none;">✕</button>
+  </div>
+</div>
+
+<main class="news-grid" id="newsGrid">
+  <!-- новости подгружаются из JavaScript -->
+</main>
+
+<footer class="footer">
+  <p>© 2026 iPhoneNews — Новости мира Apple. Все права защищены.</p>
+  <p>Сайт разработан студентом 2 курса Садовым Артёмом</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
